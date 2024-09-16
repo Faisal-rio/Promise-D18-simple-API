@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Enhanced Fox Images</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center fancy-title">Fierce Fox Gallery</h1>
+        <div class="loading text-center" id="loading">
+            <div class="spinner-border text-warning" role="status"></div>
+            <span class="ml-2">Summoning your foxes...</span>
+        </div>
+        <div id="data-container" class="row justify-content-center mt-4">
+            <!-- Fox image cards will be injected here -->
+        </div>
+        <div class="text-center mt-5">
+            <button class="btn btn-warning refresh-btn" onclick="fetchFoxImage()">Load Another Fox</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

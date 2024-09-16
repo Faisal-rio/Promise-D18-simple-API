@@ -1,0 +1,77 @@
+/* Ensure full height and center content */
+body {
+    background: linear-gradient(135deg, #a2c2e2 0%, #f8cfd8 100%);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Center and style the main heading */
+h1 {
+    color: #007BFF; /* Blue color for heading */
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the IP container */
+#ip-container {
+    font-size: 1.25rem;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Scale up and add shadow on hover */
+#ip-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the button */
+button {
+    border-radius: 0.5rem;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Apply fade-in animation */
+.fade-in {
+    animation: fadeIn 0.5s forwards;
+}
+
+/* Responsive design for different screen sizes */
+@media (max-width: 767.98px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
