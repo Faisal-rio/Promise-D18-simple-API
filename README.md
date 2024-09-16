@@ -118,3 +118,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Enjoy using the IP Address Viewer and Random Joke Generator!
+
+
+
+## 1.API-01 - If you want to view the deployment, just click the[Netlify](https://www.netlify.com/).
+
+## 1.API-02 - If you want to view the deployment, just click the[Netlify](https://www.netlify.com/).
+
+## 1.API-03 - If you want to view the deployment, just click the[Netlify](https://www.netlify.com/).
